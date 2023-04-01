@@ -27,7 +27,7 @@ let result = getFilesByExt(dirPath, option)
 console.log(result)
 
 // ['root/dir1/dir3/file5.jpg', 'root/dir1/dir3/file6.png', 'root/file2.mp3']
-option = {ext: ['mp3', 'jpg', 'png']}
+option = { ext: ['mp3', 'jpg', 'png'] }
 result = getFilesByExt(dirPath, option)
 console.log(result)
 ```
