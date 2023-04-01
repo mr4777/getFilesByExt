@@ -1,5 +1,9 @@
 # Usage
-e.g.)
+
+## e.g.)
+```
+main.js
+getFilesByExt.js
 root/
 ├file1.txt
 ├file2.mp3
@@ -10,8 +14,11 @@ root/
   └dir3/
      ├file5.jpg
      └file6.png
-
 ```
+
+## main.js
+```main.js
+const {getFilesByExt} = require('./getFilesByExt');
 const dirPath = './root'
 
 // ['root/dir1/dir2/file3.txt', 'root/dir1/dir2/file4.txt', 'root/file1.txt']
