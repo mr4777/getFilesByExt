@@ -17,10 +17,10 @@ const dirPath = './root'
 // ['root/dir1/dir2/file3.txt', 'root/dir1/dir2/file4.txt', 'root/file1.txt']
 let option = { ext: 'txt' }
 let result = getFilesByExt(dirPath, option)
-console.log(result);
+console.log(result)
 
 // ['root/dir1/dir3/file5.jpg', 'root/dir1/dir3/file6.png', 'root/file2.mp3']
 option = {ext: ['mp3', 'jpg', 'png']}
 result = getFilesByExt(dirPath, option)
-console.log(result);
+console.log(result)
 ```
