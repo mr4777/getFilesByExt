@@ -22,7 +22,7 @@ const {getFilesByExt} = require('./getFilesByExt');
 const dirPath = './root'
 
 // ['root/dir1/dir2/file3.txt', 'root/dir1/dir2/file4.txt', 'root/file1.txt']
-let option = { ext: 'txt' }
+let option = { ext: ['txt'] }
 let result = getFilesByExt(dirPath, option)
 console.log(result)
 
